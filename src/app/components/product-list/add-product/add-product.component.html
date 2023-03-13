@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="login">
+            <div class="login_box">
+                <div class="left">
+                 
+                    <div class="contact">
+                        <form [formGroup]="registerForm" (ngSubmit)="submitForm()">
+                            <h3>Add product</h3>
+                            <input formControlName="manufacturer" type="text" placeholder="Manufacturer">
+                            <input  formControlName="model" type="text" placeholder="Model">
+                            <input formControlName="price" type="number" placeholder="Price">
+                            <input formControlName="type" type="text" placeholder="Type">
+                            <input formControlName="image" type="text" placeholder="Image">
+                            <input  formControlName="mobile" type="text" placeholder="Mobile">
+                            <input  formControlName="description" type="text" placeholder="Description">
+                            <button class="submit">LET'S GO</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                </div>
+            </div>
+        </section>
+    
+    </body>

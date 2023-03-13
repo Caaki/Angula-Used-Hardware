@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="login">
+            <div class="login_box">
+                <div class="left">
+                 
+                    <div class="contact">
+                        <form [formGroup]="registerForm" (ngSubmit)="submitForm()">
+                            <h3>Edit product</h3>
+                            <input [value]="product.manufacturer" formControlName="manufacturer" type="text" placeholder="Manufacturer">
+                            <input [value]="product.model" formControlName="model" type="text" placeholder="Model">
+                            <input [value]="product.price" formControlName="price" type="number" placeholder="Price">
+                            <input [value]="product.type" formControlName="type" type="text" placeholder="Type">
+                            <input [value]="product.image" formControlName="image" type="text" placeholder="Image">
+                            <input [value]="product.mobile" formControlName="mobile" type="text" placeholder="Mobile">
+                            <input [value]="product.description" formControlName="description" type="text" placeholder="Description">
+                            
+                            
+                            <button class="submit">LET'S GO</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="{{product.image}}" alt="" >
+                </div>
+            </div>
+        </section>
+    
+    </body>

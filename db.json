@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "userId": 1,
+      "manufacturer": "Gigabyte",
+      "model": "3070Ti",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 450,
+      "type": "GPU",
+      "image": "https://img.ep-cdn.com/i/500/500/fc/fcekrvgwtdzfrknxqhbz/gigabyte-nvidia-geforce-rtx-3070-ti-gaming-8gb-256bit-gv-n307tgaming-oc-8gd-graficka-kartica-cene.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "manufacturer": "MSI",
+      "model": "3060Ti",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 350,
+      "type": "GPU",
+      "image": "https://www.exceed.rs/images/products/big/55317.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "manufacturer": "AMD",
+      "model": "Ryzen 5 3600",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 150,
+      "type": "CPU",
+      "image": "https://www.datalink.me/images/stories/virtuemart/product/s_36011.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "manufacturer": "ASUS",
+      "model": "TUF B450-plus",
+      "description": "Fan Xpert 4 Core: Ensures every fan achieves the best balance of cooling performance and acoustics\nTUF Protection: SafeSlot, ESD Guards, DDR4 overvoltage protection, Digi+ VRM, and stainless-steel back I/O for long-term reliability\nMilitary-grade TUF Components: TUF LANGuard, TUF Chokes, TUF Capacitors, and TUF MOSFETs for maximum durability\nExclusive DTS® Custom audio: Delivers positional cues to stereo headphones, helping you to pinpoint enemies and action\nAura Sync RGB: Synchronize LED lighting with a vast portfolio of compatible PC gear",
+      "price": 90,
+      "type": "MOTHERBOARD",
+      "image": "https://img.gigatron.rs/img/products/large/image5b9b913cd0fcb.png",
+      "mobile": "0603435589"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "manufacturer": "AMD",
+      "model": "Epyc 7232P 3.10Ghz Sp3 Oem",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 440,
+      "type": "CPU",
+      "image": "https://maychusaigon.vn/wp-content/uploads/2020/06/cpu-amd-epyc-7742-processor-thumb-maychusaigon.png",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "manufacturer": "PNY",
+      "model": "3050",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 250,
+      "type": "GPU",
+      "image": "https://m.media-amazon.com/images/I/51tfed9029L._AC_SS300_.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "manufacturer": "Asus",
+      "model": "ROG Strix 1000W, 80+Gold",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 215,
+      "type": "NAPAJANJE",
+      "image": "https://www.exceed.rs/images/products/big/48356.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "manufacturer": "Palit",
+      "model": "3070Ti",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 425,
+      "type": "GPU",
+      "image": "https://www.bcgroup-online.com/upload/b/90153-palit-nvidia-geforce-rtx-3070-ti-phoenix-8gb-ned307t019p2-1046x.jpg",
+      "mobile": "0603438081"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "manufacturer": "GIGABYTE",
+      "model": "B550M aorus elite (rev. 1.0)",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 95,
+      "type": "MOTHERBOARD",
+      "image": "https://img.gigatron.rs/img/products/large/GIGABYTE-B550M-AORUS-ELITE-(rev.-1.0)-15.png",
+      "mobile": "0603435589"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "manufacturer": "Zotac",
+      "model": "3070",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 410,
+      "type": "GPU",
+      "image": "https://api.tehnomanija.rs/medias/graficka-ZT-A30710J-10P-zotac-slika1-jpeg-580-conversion-media-format?context=bWFzdGVyfGltYWdlc3w1Njg1MHxpbWFnZS9qcGVnfGhjZS9oZDgvOTAxMTM4NjMxODg3OC9ncmFmaWNrYS1aVC1BMzA3MTBKLTEwUC16b3RhYy1zbGlrYTFfanBlZy01ODAtY29udmVyc2lvbi1tZWRpYS1mb3JtYXR8MTBkNDZjZjY1NWI2NzNjNGJkMjA5NGE1OWM0MTQ0M2U1ZTRjNTY4YTRhYzA5ZmNkZGNmYzIwMDc1MDI3ZjJjZg",
+      "mobile": "0603435589"
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "manufacturer": "Palit",
+      "model": "3070Ti",
+      "description": "Manufacturer Nvidia GPU Architecture Ampere 8nm Cores 6144 CUDA CORES Base Clock 1.58 GHz Boost Clock 1.77 GHz Transistor Amount 17.4 Billion Texture Units 192 ROPs 96 Memory Memory Size 8GB GDDR6X Memory Clock Effective 19000 MHz Memory Interface Width 256-bit Memory Bandwidth 608.3 GB/s",
+      "price": 430,
+      "type": "GPU",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZBp8-O3NeDi6lqyAUZliPBZj7h6e3N9NYN0mTDmBWUyJ-v80OG4bV7cz97JIpKHWRg4I&usqp=CAU",
+      "mobile": "0603435589"
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "manufacturer": "GIGABYTE",
+      "model": "1060",
+      "description": "Nije Looooose",
+      "price": 110,
+      "type": "GPU",
+      "image": "https://img.gigatron.rs/img/products/large/image57e547ef20f0d.png",
+      "mobile": "0606864205"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Caki",
+      "password": "CakiHasA_PHD",
+      "mobile": "0603438081",
+      "town": "Belgrade"
+    },
+    {
+      "id": 2,
+      "username": "Pera",
+      "password": "1234",
+      "mobile": "0603435589",
+      "town": "Belgrade"
+    }
+  ]
+}

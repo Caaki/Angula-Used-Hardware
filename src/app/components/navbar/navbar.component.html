@@ -1,0 +1,42 @@
+
+<head>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    
+</head>
+    <header>
+        <a routerLink="/" class="logo"><i class="ri-cpu-line"></i><span>Used hardware</span></a>
+        <ul class="navbar">
+            <li><a routerLink="/ngrx"  routerLinkActive="active">NGRX</a></li>
+            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+            <li><ng-container *ngIf="isLoggedIn"><a routerLink="/selling" routerLinkActive="active">
+                Selling</a></ng-container></li>
+            
+            <li><ng-container *ngIf="isLoggedIn"><a routerLink="/addProduct" routerLinkActive="active">
+                Add product</a></ng-container></li>
+            
+        </ul>
+
+        <div class="main">
+            <ng-container *ngIf="!isLoggedIn">
+            <a routerLink="/login" routerLinkActive="active" class="user">
+                
+                <i class="ri-user-2-fill"></i>Sign in</a></ng-container>
+                <ng-container *ngIf="isLoggedIn">
+                    <a (click)="logout()" routerLinkActive="active" class="user">
+                    
+                        <i class="ri-user-2-fill"></i>{{user.username}}
+                  </a>
+                </ng-container>
+             
+            <a routerLink="/register" routerLinkActive="active">Register</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+    </header>
+

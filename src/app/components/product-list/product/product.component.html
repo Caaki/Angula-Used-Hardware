@@ -1,0 +1,37 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div class="container">
+
+  <!-- Portfolio Item Heading -->
+  <h1 class="my-4 special">{{product.manufacturer}}</h1><h2>{{product.model}}
+    
+  </h2>
+
+  <!-- Portfolio Item Row -->
+  <div class="row">
+
+    <div class="col-md-8">
+      <img class="img-fluid" src="{{product.image}}" alt="">
+    </div>
+
+    <div class="col-md-4">
+      <h3 class="my-3 special">Description</h3>
+      <p>{{product.description}}</p>
+      <h3 class="my-3 special">Price and contact</h3>
+      <ul>
+        <li style="font-size: 20px;">{{product.price}}$</li>
+        <li style="font-size: 20px;">{{product.mobile}}</li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+</body>
